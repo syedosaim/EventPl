@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		881CB5B02690DB8A00C26ADC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881CB5AF2690DB8A00C26ADC /* AppDelegate.swift */; };
+		881CB5B22690DB8A00C26ADC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881CB5B12690DB8A00C26ADC /* SceneDelegate.swift */; };
+		881CB5B42690DB8A00C26ADC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881CB5B32690DB8A00C26ADC /* ViewController.swift */; };
+		881CB5B72690DB8A00C26ADC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 881CB5B52690DB8A00C26ADC /* Main.storyboard */; };
+		881CB5B92690DB8B00C26ADC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 881CB5B82690DB8B00C26ADC /* Assets.xcassets */; };
+		881CB5BC2690DB8B00C26ADC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 881CB5BA2690DB8B00C26ADC /* LaunchScreen.storyboard */; };
+		881CB5C52690EA0000C26ADC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 881CB5C42690EA0000C26ADC /* GoogleService-Info.plist */; };
+		88CF49992690EEEB009DD84B /* LoginRegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CF49972690EEEB009DD84B /* LoginRegisterVC.swift */; };
+		88CF499A2690EEEB009DD84B /* LoginRegisterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88CF49982690EEEB009DD84B /* LoginRegisterVC.xib */; };
+		88CF499E2690F082009DD84B /* DemoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CF499D2690F082009DD84B /* DemoData.swift */; };
+		88CF49A32690F08C009DD84B /* ShadowCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CF49A02690F08C009DD84B /* ShadowCardView.swift */; };
+		88CF49A42690F08C009DD84B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CF49A12690F08C009DD84B /* CardView.swift */; };
+		88CF49A52690F08C009DD84B /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CF49A22690F08C009DD84B /* RoundedButton.swift */; };
+		C890C69FC0EBEDD74F046A13 /* Pods_bon_voyage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 784C9A8FD5E5BE0CA1FB6682 /* Pods_bon_voyage.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B6D28E5301A77070D11374E /* Pods-bon-voyage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bon-voyage.debug.xcconfig"; path = "Target Support Files/Pods-bon-voyage/Pods-bon-voyage.debug.xcconfig"; sourceTree = "<group>"; };
+		784C9A8FD5E5BE0CA1FB6682 /* Pods_bon_voyage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bon_voyage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		881CB5AC2690DB8A00C26ADC /* bon-voyage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bon-voyage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		881CB5AF2690DB8A00C26ADC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		881CB5B12690DB8A00C26ADC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		881CB5B32690DB8A00C26ADC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		881CB5B62690DB8A00C26ADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		881CB5B82690DB8B00C26ADC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		881CB5BB2690DB8B00C26ADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		881CB5BD2690DB8B00C26ADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		881CB5C42690EA0000C26ADC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		88CF49972690EEEB009DD84B /* LoginRegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRegisterVC.swift; sourceTree = "<group>"; };
+		88CF49982690EEEB009DD84B /* LoginRegisterVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginRegisterVC.xib; sourceTree = "<group>"; };
+		88CF499D2690F082009DD84B /* DemoData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoData.swift; sourceTree = "<group>"; };
+		88CF49A02690F08C009DD84B /* ShadowCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowCardView.swift; sourceTree = "<group>"; };
+		88CF49A12690F08C009DD84B /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		88CF49A22690F08C009DD84B /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		EE9FABEE87CDD31860B13E65 /* Pods-bon-voyage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bon-voyage.release.xcconfig"; path = "Target Support Files/Pods-bon-voyage/Pods-bon-voyage.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		881CB5A92690DB8A00C26ADC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C890C69FC0EBEDD74F046A13 /* Pods_bon_voyage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A7144E39EBBA991DC8F84AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B6D28E5301A77070D11374E /* Pods-bon-voyage.debug.xcconfig */,
+				EE9FABEE87CDD31860B13E65 /* Pods-bon-voyage.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		881CB5A32690DB8A00C26ADC = {
+			isa = PBXGroup;
+			children = (
+				881CB5AE2690DB8A00C26ADC /* bon-voyage */,
+				881CB5AD2690DB8A00C26ADC /* Products */,
+				7A7144E39EBBA991DC8F84AB /* Pods */,
+				B8B17FD3AF55BDD0D3483302 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		881CB5AD2690DB8A00C26ADC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				881CB5AC2690DB8A00C26ADC /* bon-voyage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		881CB5AE2690DB8A00C26ADC /* bon-voyage */ = {
+			isa = PBXGroup;
+			children = (
+				88CF499C2690F05B009DD84B /* Custom Views */,
+				88CF49962690EEB4009DD84B /* LoginRegister */,
+				881CB5C42690EA0000C26ADC /* GoogleService-Info.plist */,
+				881CB5AF2690DB8A00C26ADC /* AppDelegate.swift */,
+				881CB5B12690DB8A00C26ADC /* SceneDelegate.swift */,
+				881CB5B32690DB8A00C26ADC /* ViewController.swift */,
+				88CF499D2690F082009DD84B /* DemoData.swift */,
+				881CB5B52690DB8A00C26ADC /* Main.storyboard */,
+				881CB5B82690DB8B00C26ADC /* Assets.xcassets */,
+				881CB5BA2690DB8B00C26ADC /* LaunchScreen.storyboard */,
+				881CB5BD2690DB8B00C26ADC /* Info.plist */,
+			);
+			path = "bon-voyage";
+			sourceTree = "<group>";
+		};
+		88CF49962690EEB4009DD84B /* LoginRegister */ = {
+			isa = PBXGroup;
+			children = (
+				88CF49972690EEEB009DD84B /* LoginRegisterVC.swift */,
+				88CF49982690EEEB009DD84B /* LoginRegisterVC.xib */,
+			);
+			path = LoginRegister;
+			sourceTree = "<group>";
+		};
+		88CF499C2690F05B009DD84B /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				88CF49A12690F08C009DD84B /* CardView.swift */,
+				88CF49A22690F08C009DD84B /* RoundedButton.swift */,
+				88CF49A02690F08C009DD84B /* ShadowCardView.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		B8B17FD3AF55BDD0D3483302 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				784C9A8FD5E5BE0CA1FB6682 /* Pods_bon_voyage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		881CB5AB2690DB8A00C26ADC /* bon-voyage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 881CB5C02690DB8B00C26ADC /* Build configuration list for PBXNativeTarget "bon-voyage" */;
+			buildPhases = (
+				A4719B6245BDA1EC485D8432 /* [CP] Check Pods Manifest.lock */,
+				881CB5A82690DB8A00C26ADC /* Sources */,
+				881CB5A92690DB8A00C26ADC /* Frameworks */,
+				881CB5AA2690DB8A00C26ADC /* Resources */,
+				346085B667E0314B3DEA6104 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "bon-voyage";
+			productName = "bon-voyage";
+			productReference = 881CB5AC2690DB8A00C26ADC /* bon-voyage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		881CB5A42690DB8A00C26ADC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					881CB5AB2690DB8A00C26ADC = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 881CB5A72690DB8A00C26ADC /* Build configuration list for PBXProject "bon-voyage" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 881CB5A32690DB8A00C26ADC;
+			productRefGroup = 881CB5AD2690DB8A00C26ADC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				881CB5AB2690DB8A00C26ADC /* bon-voyage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		881CB5AA2690DB8A00C26ADC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				881CB5BC2690DB8B00C26ADC /* LaunchScreen.storyboard in Resources */,
+				881CB5C52690EA0000C26ADC /* GoogleService-Info.plist in Resources */,
+				88CF499A2690EEEB009DD84B /* LoginRegisterVC.xib in Resources */,
+				881CB5B92690DB8B00C26ADC /* Assets.xcassets in Resources */,
+				881CB5B72690DB8A00C26ADC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		346085B667E0314B3DEA6104 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bon-voyage/Pods-bon-voyage-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bon-voyage/Pods-bon-voyage-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-bon-voyage/Pods-bon-voyage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4719B6245BDA1EC485D8432 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bon-voyage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		881CB5A82690DB8A00C26ADC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88CF49A42690F08C009DD84B /* CardView.swift in Sources */,
+				88CF49A32690F08C009DD84B /* ShadowCardView.swift in Sources */,
+				881CB5B42690DB8A00C26ADC /* ViewController.swift in Sources */,
+				88CF49A52690F08C009DD84B /* RoundedButton.swift in Sources */,
+				881CB5B02690DB8A00C26ADC /* AppDelegate.swift in Sources */,
+				881CB5B22690DB8A00C26ADC /* SceneDelegate.swift in Sources */,
+				88CF49992690EEEB009DD84B /* LoginRegisterVC.swift in Sources */,
+				88CF499E2690F082009DD84B /* DemoData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		881CB5B52690DB8A00C26ADC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				881CB5B62690DB8A00C26ADC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		881CB5BA2690DB8B00C26ADC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				881CB5BB2690DB8B00C26ADC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		881CB5BE2690DB8B00C26ADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		881CB5BF2690DB8B00C26ADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		881CB5C12690DB8B00C26ADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B6D28E5301A77070D11374E /* Pods-bon-voyage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YVJTAN2LXP;
+				INFOPLIST_FILE = "bon-voyage/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.company.bon-voyage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		881CB5C22690DB8B00C26ADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE9FABEE87CDD31860B13E65 /* Pods-bon-voyage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YVJTAN2LXP;
+				INFOPLIST_FILE = "bon-voyage/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.company.bon-voyage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		881CB5A72690DB8A00C26ADC /* Build configuration list for PBXProject "bon-voyage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				881CB5BE2690DB8B00C26ADC /* Debug */,
+				881CB5BF2690DB8B00C26ADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		881CB5C02690DB8B00C26ADC /* Build configuration list for PBXNativeTarget "bon-voyage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				881CB5C12690DB8B00C26ADC /* Debug */,
+				881CB5C22690DB8B00C26ADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 881CB5A42690DB8A00C26ADC /* Project object */;
+}
