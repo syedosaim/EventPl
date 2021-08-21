@@ -1,2 +1,2 @@
 # EventPl
-An app event planning, using UIKit Swift, Firestore
+An ecommerce app for event planning, using UIKit Swift, Firestore
